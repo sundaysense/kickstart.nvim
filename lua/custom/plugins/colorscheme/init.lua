@@ -18,6 +18,14 @@ vim.pack.add({
 })
 
 vim.pack.add({
+        "https://github.com/cocopon/iceberg.vim",
+})
+
+vim.pack.add({
+        "https://github.com/projekt0n/github-nvim-theme",
+})
+
+vim.pack.add({
   {
     src = 'https://github.com/oxidescheme/nvim',
     name = 'oxide',
@@ -25,3 +33,4 @@ vim.pack.add({
 })
 
 -- require('onedark').load()
+vim.cmd.colorscheme("github_dark_dimmed")
