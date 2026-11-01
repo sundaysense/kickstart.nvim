@@ -99,7 +99,7 @@ do
   vim.g.maplocalleader = ' '
 
   -- Set to true if you have a Nerd Font installed and selected in the terminal
-  vim.g.have_nerd_font = false
+  vim.g.have_nerd_font = true
 
   -- [[ Setting options ]]
   --  See `:help vim.o`
@@ -1030,9 +1030,9 @@ do
   -- file and put their `vim.pack.add()` and `setup()` calls in the required order.
   --
   -- If separate modules need a specific order, require them explicitly instead:
-  -- require 'custom.plugins.colorscheme'
-  -- require 'custom.plugins.ui'
-  -- require 'custom.plugins.git'
+require 'custom.plugins.colorscheme'
+require 'custom.plugins.ui'
+require 'custom.plugins.git'
 end
 
 -- The line beneath this is called `modeline`. See `:help modeline`
