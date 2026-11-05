@@ -26,6 +26,10 @@ vim.pack.add({
 })
 
 vim.pack.add({
+        "https://github.com/mhartington/oceanic-next",
+})
+
+vim.pack.add({
   {
     src = 'https://github.com/oxidescheme/nvim',
     name = 'oxide',
