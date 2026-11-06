@@ -10,7 +10,7 @@ vim.pack.add({
 })
 
 vim.pack.add({
-        "https://github.com/Mofiqul/vscode.nvim",
+        "https://github.com/lunacookies/vim-colors-xcode",
 })
 
 vim.pack.add({
@@ -31,8 +31,8 @@ vim.pack.add({
 
 vim.pack.add({
   {
-    src = 'https://github.com/oxidescheme/nvim',
-    name = 'oxide',
+    src = 'https://github.com/Shatur/neovim-ayu',
+    name = 'ayu',
   },
 })
 
